@@ -2,7 +2,7 @@ from sample import FizzBuzz
 
 numbers = [23, 20, 21, -21, 10, 15, 45, -45, -20, 2, 100]
 
-values = [23, "Buzz", "Fizz", -21, "Buzz", "FizzBuzz", "FizzBuzz", -45, -20, 2, "Buzz"]
+values = [23, "Buzz", "Fizz", "Fizz", "Buzz", "FizzBuzz", "FizzBuzz", "FizzBuzz", "Buzz", 2, "Buzz"]
 
 for number, value in zip(numbers, values):
     foo_val = FizzBuzz(number)
